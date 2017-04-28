@@ -24,5 +24,8 @@ $(".box").click(function() {
   }
 );
 
+// Ali's way
+// var classes = ["box"];
+// $("body").append("<div class" + classes.join("")+"></div>");
 
 

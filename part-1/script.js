@@ -49,4 +49,8 @@ do {
 } while (j > 0)
 
 
+// Ali's way
+// $("body").append("<div class="view"></div>");
 
+// Ian's way
+// $("<div>", {"class":"view"}).appendTo(document.body);
