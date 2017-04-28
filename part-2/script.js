@@ -7,7 +7,7 @@
 
 // All the divs created in step 3 will be appended to the document body.
 
-for (var i = 0; i < 197; i++) {
+for (var i = 0; i < 196; i++) {
   var divBox = $("<div>");
   if (i%2 == 0) {
     divBox.addClass("box type-1");
