@@ -16,6 +16,9 @@ for (var i = 0; i < 196; i++) {
   }
   $("body").append(divBox);
 }
+// Ali's way
+// var classes = ["box"];
+// $("body").append("<div class" + classes.join("")+"></div>");
 
 // Add an click event listener on all the created box divs in step 3 and 4. 
 // Important: You cannot do this with any type of loop.
@@ -24,8 +27,5 @@ $(".box").click(function() {
   }
 );
 
-// Ali's way
-// var classes = ["box"];
-// $("body").append("<div class" + classes.join("")+"></div>");
 
 

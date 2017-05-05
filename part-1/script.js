@@ -5,6 +5,10 @@
 var divView = $("<div>");
 divView.addClass("view");
 $("body").append(divView);
+// Ali's way
+// $("body").append("<div class="view"></div>");
+// Ian's way
+// $("<div>", {"class":"view"}).appendTo(document.body);
 
 // Create a div element with a class name of "grass" and append it to the previously created "view" div from step 3.
 var divGrass = $("<div>");
@@ -49,8 +53,3 @@ do {
 } while (j > 0)
 
 
-// Ali's way
-// $("body").append("<div class="view"></div>");
-
-// Ian's way
-// $("<div>", {"class":"view"}).appendTo(document.body);
